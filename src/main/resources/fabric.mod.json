@@ -1,26 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "godown",
   "version": "${version}",
-  "name": "Name",
-  "description": "Description",
+  "name": "Go Down",
+  "description": "On demand crawling.",
   "authors": [
     "Liquidwarp"
   ],
   "contact": {
-    "homepage": "https://github.com/LiquidwarpMC",
-    "sources": "https://github.com/LiquidwarpMC/modid"
+    "homepage": "https://github.com/LiquidwarpMC/go-down",
+    "sources": "https://github.com/LiquidwarpMC/go-down",
+    "issues": "https://github.com/LiquidwarpMC/go-down/issues"
   },
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/godown/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.liquidwarpmc.modid.Mod"
+      "net.liquidwarpmc.godown.GoDown"
+    ],
+    "client": [
+      "net.liquidwarpmc.godown.GoDownClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "godown.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.7.2",

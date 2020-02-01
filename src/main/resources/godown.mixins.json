@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "net.liquidwarpmc.godown.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": ["PlayerEntityMixin"],
+  "client": ["client.KeyboardInputMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
