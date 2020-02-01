@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+  "name": "Name",
+  "description": "Description",
+  "authors": [
+    "Liquidwarp"
+  ],
+  "contact": {
+    "homepage": "https://github.com/LiquidwarpMC",
+    "sources": "https://github.com/LiquidwarpMC/modid"
+  },
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.liquidwarpmc.modid.Mod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  }
+}

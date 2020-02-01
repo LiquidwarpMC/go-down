@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.liquidwarpmc.modid.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "Mixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
